@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+}
+
+.box1{
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+
+  padding: 20px;
+  margin:10px;
+  margin-bottom: 30px;
+
+  width: 50%;
+}
+.text{
+  color: pink;
+  border-color: purple;
+  border-width: 1px;
+  border-style: dashed;
+  margin:0;
+}
+.eviediv{
+  height: 100px;
+  background-color: blue;
+}
+.abosoluteBox{
+  position; absolute;
+  left: 600px;
+  top: 0px;
+}
+.relativeBox{
+  position: relative;
+  left: 50px;
+}
+.fixedBox{
+  position: fixed;
+  left: 500px;
+  top: 200px;
+}
