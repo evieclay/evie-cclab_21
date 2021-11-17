@@ -1,0 +1,14 @@
+body{
+  background-color: lightYellow;
+}
+.text{
+  color: pink;
+  margin:1;
+}
+.canvas{
+  position: relative;
+  color:black;
+}
+button{
+  background-color: pink;
+}
