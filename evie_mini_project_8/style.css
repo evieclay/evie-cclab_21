@@ -1,0 +1,9 @@
+.boxdiv{
+  height: 50px;
+  width:1200px;
+  background-color: black;
+}
+.text{
+  color: white;
+  margin: 5px;
+}
