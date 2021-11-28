@@ -6,7 +6,7 @@ function preload(){
 }
 
 function setup(){
-  createCanvas(1200, 800);
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw(){
@@ -14,8 +14,8 @@ function draw(){
 
   img.loadPixels();
 
-  for(let y = 0; y < 800; y++){
-    for(let x = 0; x < 1200; x++){
+  for(let y = 0; y < windowHeight; y++){
+    for(let x = 0; x < windowWidth/2; x++){
       let index = (y * width + x) * 4;
 
       let distance = dist(mouseX, mouseY, x, y);
