@@ -22,10 +22,10 @@ function draw() {
     strokeWeight(1.75);
     textSize(20);
     textFont("copperplate");
-      text('lower petal', 10, 110);
-      text('middle petal', 10, 190);
-      text('upper petal', 10, 270);
-      text('center petal', 10, 350);
+      text('lower petal', 10, 70);
+      text('middle petal', 10, 150);
+      text('upper petal', 10, 230);
+      text('center petal', 10, 310);
   pop();
 }
 
@@ -55,14 +55,14 @@ function flower(){
 
 function bottomPetalButtons(){
   button = createButton('grey');
-  button.position(180, 520);
+  button.position(100, 480);
   button.size(50, 50);
   button.style('background-color', "grey");
   button.style('font-family', 'copperplate');
   button.mousePressed(bottomPetal);
 
   button1 = createButton('black');
-  button1.position(260, 520);
+  button1.position(180, 480);
   button1.size(50, 50);
   button1.style('background-color', "black");
   button1.style('color: white');
@@ -70,7 +70,7 @@ function bottomPetalButtons(){
   button1.mousePressed(bottomPetal1);
 
   button2 = createButton('white');
-  button2.position(340, 520);
+  button2.position(260, 480);
   button2.size(50, 50);
   button2.style('background-color', "white");
   button2.style('font-family', 'copperplate');
@@ -94,14 +94,14 @@ function bottomPetal2(){
 function middlePetalButtons(){
 
   button = createButton('grey');
-  button.position(180, 600);
+  button.position(100, 560);
   button.size(50, 50);
   button.style('background-color', "grey");
   button.style('font-family', 'copperplate');
   button.mousePressed(middlePetal);
 
   button1 = createButton('black');
-  button1.position(260, 600);
+  button1.position(180, 560);
   button1.size(50, 50);
   button1.style('background-color', "black");
   button1.style('color: white');
@@ -109,7 +109,7 @@ function middlePetalButtons(){
   button1.mousePressed(middlePetal1);
 
   button2 = createButton('white');
-  button2.position(340, 600);
+  button2.position(260, 560);
   button2.size(50, 50);
   button2.style('background-color', "white");
   button2.style('font-family', 'copperplate');
@@ -132,14 +132,14 @@ function middlePetal2(){
 function upperPetalButtons(){
 
   button = createButton('grey');
-  button.position(180, 680);
+  button.position(100, 640);
   button.size(50, 50);
   button.style('background-color', "grey");
   button.style('font-family', 'copperplate');
   button.mousePressed(upperPetal);
 
   button1 = createButton('black');
-  button1.position(260, 680);
+  button1.position(180, 640);
   button1.size(50, 50);
   button1.style('background-color', "black");
   button1.style('color: white');
@@ -147,7 +147,7 @@ function upperPetalButtons(){
   button1.mousePressed(upperPetal1);
 
   button2 = createButton('white');
-  button2.position(340, 680);
+  button2.position(260, 640);
   button2.size(50, 50);
   button2.style('background-color', "white");
   button2.style('font-family', 'copperplate');
@@ -170,14 +170,14 @@ function upperPetal2(){
 function centerPetalButtons(){
 
   button = createButton('grey');
-  button.position(180, 760);
+  button.position(100, 720);
   button.size(50, 50);
   button.style('background-color', "grey");
   button.style('font-family', 'copperplate');
   button.mousePressed(centerPetal);
 
   button1 = createButton('black');
-  button1.position(260, 760);
+  button1.position(180, 720);
   button1.size(50, 50);
   button1.style('background-color', "black");
   button1.style('color: white');
@@ -185,7 +185,7 @@ function centerPetalButtons(){
   button1.mousePressed(centerPetal1);
 
   button2 = createButton('white');
-  button2.position(340, 760);
+  button2.position(260, 720);
   button2.size(50, 50);
   button2.style('background-color', "white");
   button.style('font-family', 'copperplate');
