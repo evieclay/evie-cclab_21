@@ -3,7 +3,7 @@ background-color: black;
 box1{
   margin: 0px;
 }
-.img-container img{
+img{
   width:600px;
   height:200px;
   opacity: 0.3;
@@ -11,7 +11,7 @@ box1{
 }
 .img-container{
   display: flex;
-  margin: auto;
+  /* margin: auto; */
   width: 100%;
   height:200px;
   background-color: black;
@@ -70,50 +70,23 @@ background-color: darkGrey;
   font-family: cursive;
 }
 .box{
-  display: inline-flex;
+  display: flex;
   margin-top:20px;
   width: 100%;
   height:700px;
   background-color: lightGrey;
-}
-.box img{
-  width: 600px;
-  height: 700px;
-  opacity: 1;
-  align-self: left;
+
 }
 .text4{
-  text-indent: 70px;
-  color: red;
-  text-align: justify;
-  font-size: 27.5px;
-  font-family: "copperplate";
-  margin:15px;
-}
-.buttons {
-  display: block;
-  width: 100%;
-  height: 50px;
-  background-color: grey;
   color: white;
+  margin: 5px;
   font-size: 30px;
   font-family: "copperplate";
-  text-align: center;
-  margin: 15px;
+  text-align: justify;
 }
-.box2{
-  display: flex;
-  margin-top:20px;
-  width: 100%;
-  height:350px;
-  background-color: lightGrey;
-  color: black;
-  text-align: left;
-  font-size: 25px;
-  font-family: "copperplate";
-  margin:15px;
-}
-img{
+.box img{
+  opacity:1;
   width:500px;
-  height:500px;
+  height:700px;
+  align: left;
 }
