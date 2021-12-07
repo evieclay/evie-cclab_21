@@ -78,8 +78,9 @@ background-color: darkGrey;
 
 }
 .text4{
+  text-indent: 70px;
   color: white;
-  margin: 5px;
+  margin: 15px;
   font-size: 22px;
   font-family: "copperplate";
   text-align: justify;
