@@ -168,7 +168,7 @@ function upperPetal2(){
 
 
 function centerPetalButtons(){
-
+  
   button = createButton('grey');
   button.position(100, 720);
   button.size(50, 50);
@@ -181,14 +181,14 @@ function centerPetalButtons(){
   button1.size(50, 50);
   button1.style('background-color', "black");
   button1.style('color: white');
-  button.style('font-family', 'copperplate');
+  button1.style('font-family', 'copperplate');
   button1.mousePressed(centerPetal1);
 
   button2 = createButton('white');
   button2.position(260, 720);
   button2.size(50, 50);
   button2.style('background-color', "white");
-  button.style('font-family', 'copperplate');
+  button2.style('font-family', 'copperplate');
   button2.mousePressed(centerPetal2);
 
 }
